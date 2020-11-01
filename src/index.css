@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; 
+  margin: 0px;
+  background: #f9f8f8;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.page-content {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+header {
+  background-color: #ffffff !important;
+  padding: 5px 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  box-shadow: 2px -4px 9px 10px #dadada;
+  height: 60px;
+  position:fixed;
+  width: 100%;
+}
+
+.nav {
+  float: right;
+}
+
+.logo {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0e68d8;
+}
+
+ 
+ul.menu-ul {
+  list-style: none;
+}
+
+ul.menu-ul li {
+  float: left;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item-div {
+  width: 17%;
+  border: 1px solid #dcdcdc;
+  float: left;
+  margin: 15px;
+  height: 360px;
+  background: #ffffff;
+  padding: 10px;
+  /* box-shadow: 0 1px 4px rgba(57,73,76,.35); */
+  border-radius: 10px;
+}
+
+.item-div img {
+  display: block;
+  margin: 0px auto;
+  height: 220px;
+  margin-bottom: 10px;
+}
+
+.item-div h3 {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 600; 
+  line-height: 17px;
+}
+
+.item-div h5 {
+  margin: 8px 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #000;
+}
+
+.item-div p {
+  margin: 8px 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #848484;
+}
+
+.btn {
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0rem;
+  border: 0px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add-cart-btn {
+  color: #fff;
+  background-color: #0e68d8;
+  border-color: #0e68d8;
+}
+
+button.proceed-now-btn {
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0rem;
+  border: 0px;
+  width: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0e68d8;
+  border-color: #0e68d8;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 14px;
+  float: right;
+}
+ 
+
+.item-image img {
+  border: 1px solid #e4e4e4;
+  width:100%;
+}
+.item-image {
+  width: 220px;
+  float: left;
+  margin-right: 30px;
+}
+
+.item-details {
+  float: left;
+  line-height: 27px;
+}
+
+.item-details h3 {
+  font-weight: 500;
+  margin:0px;
+  margin-bottom: 5px;
+}
+
+.item-details p{
+  margin:0px;
+  margin-bottom: 5px;
+}
+
+.item-desc {
+  clear: both;
+  padding-top: 15px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+table, td, th {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+
+table{
+  background-color: #fff;
+}
+
+thead{
+  background: #0e68d8;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0e68d8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0e68d8;
+}
+.checkout-form {
+ 
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+span.cart-remove {
+  font-size: 15px;
+  font-weight: 600;
+  color: red;
+}
+
+.cart-empty{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.cart-empty h3{
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.cart-wrapper {
+  width: 60%;
+  float: left;
+}
+
+.payment-info-div{
+  width: 30%;
+  float: right;
+}
+
+.payment-info {
+  background: #c8d3e05c;
+  padding: 15px;
+}
+
+.payment-info span {
+  display: inline-block;
+  float: right;
+}
+
+.order-success {
+  margin-top: 100px;
+  text-align: center;
+}
